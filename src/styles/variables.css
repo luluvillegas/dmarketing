@@ -1,0 +1,17 @@
+:root {
+  --color-orange-dark2: #f56a2e;
+  --color-orange-dark1: #fb8441;
+  --color-orange-main: #ff9a51;
+  --color-orange-light1: #fda65b;
+  --color-orange-light2: #fab66a;
+  --color-orange-light3: #f9e8d4;
+  --color-orange-light4: #fdf9f4;
+  --color-blue-dark2: rgb(20, 22, 42);
+  --color-blue-dark1: #23273e;
+  --color-blue-main: #323852;
+  --color-blue-light1: #3e415c;
+  --color-blue-light2: #4d4d69;
+  --color-blue-light3: #6d6d90;
+  --color-blue-light4: #a8a8b9;
+  --color-blue-light5: #ebebf3;
+}
