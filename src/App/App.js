@@ -13,6 +13,7 @@ function App() {
       <main>
         <Hero></Hero>
         <div>dsldljsd</div>
+        <div>ksksk</div>
       </main>
       <footer>
         <NavBar theme="bottom"></NavBar>
