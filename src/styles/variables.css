@@ -5,7 +5,7 @@
   --color-orange-light1: #fda65b;
   --color-orange-light2: #fab66a;
   --color-orange-light3: #f9e8d4;
-  --color-orange-light4: #fdf9f4;
+  --color-orange-light4: rgb(253, 249, 244);
   --color-blue-dark2: rgb(20, 22, 42);
   --color-blue-dark1: #23273e;
   --color-blue-main: #323852;
@@ -14,4 +14,15 @@
   --color-blue-light3: #6d6d90;
   --color-blue-light4: #a8a8b9;
   --color-blue-light5: #ebebf3;
+
+  --fontSize-xxxl: 4rem; /*64px*/
+  --fontSize-xxl: 3.25rem; /*52px*/
+  --fontSize-xl: 3rem; /*48px*/
+  --fontSize-l: 1.75rem; /*28px*/
+  --fontSize-m: 1.25rem; /*20px*/
+  --fontSize-s: 1rem; /*16px*/
+
+  --padding-horizontal-xl: 300px;
+  --padding-horizontal-s: 70px;
+  --padding-vertical-s: 15px;
 }

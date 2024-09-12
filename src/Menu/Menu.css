@@ -1,0 +1,23 @@
+.list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.top {
+  max-width: 50%;
+  align-items: center;
+  gap: 4rem;
+}
+
+.bottom {
+}
+
+.listItem {
+  font-size: var(--fontSize-s);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-orange-light4);
+}

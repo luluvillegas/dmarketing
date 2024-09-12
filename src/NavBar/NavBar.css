@@ -1,0 +1,9 @@
+.navBarWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-horizontal-s);
+  height: 80px;
+  position: relative;
+  z-index: 80;
+}

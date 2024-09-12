@@ -1,16 +1,22 @@
 import "../styles/global.css";
 import "../styles/variables.css";
 import "./App.css";
+import NavBar from "../NavBar/NavBar";
 import Hero from "../Hero/Hero";
 
 function App() {
   return (
     <div className="App">
-      {/* <header></header> */}
+      <header>
+        <NavBar theme="top"></NavBar>
+      </header>
       <main>
         <Hero></Hero>
+        <div>dsldljsd</div>
       </main>
-      <footer></footer>
+      <footer>
+        <NavBar theme="bottom"></NavBar>
+      </footer>
     </div>
   );
 }

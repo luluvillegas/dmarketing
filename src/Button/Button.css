@@ -1,0 +1,18 @@
+.button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-size: var(--fontSize-m);
+}
+
+.primary {
+  background-color: var(--color-orange-main);
+  color: var(--color-blue-dark2);
+  border: none;
+}
+
+.secondary {
+  color: var(--color-orange-light4);
+  border: 1px solid var(--color-orange-light4);
+  background-color: rgb(253, 249, 244, 0.3); /*--color-orange-light4*/
+  font-size: var(--fontSize-s);
+}
