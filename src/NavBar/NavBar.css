@@ -2,8 +2,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.topNavBar {
   padding: 0 var(--padding-horizontal-s);
   height: 80px;
   position: relative;
   z-index: 80;
+}
+
+.bottomNavBar {
+  background-color: var(--color-blue-main);
+  padding: var(--padding-horizontal-xs) var(--padding-horizontal-s);
 }

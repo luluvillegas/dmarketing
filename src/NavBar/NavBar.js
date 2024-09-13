@@ -1,17 +1,28 @@
 import "./NavBar.css";
 import Menu from "../Menu/Menu";
-import logo from "../assets/logos/logo-s.png";
+import smallLogo from "../assets/logos/logo-s.png";
+import mediumLogo from "../assets/logos/logo-m.png";
 
 export default function NavBar({ theme }) {
   return (
-    <div className="navBarWrapper">
-      <div className="logoSmall">
-        <img
-          src={logo}
-          alt="DMarketing logo of an orange target and the name on the right side"
-        />
-      </div>
-      <Menu theme={theme}></Menu>
-    </div>
+    <>
+      {theme === "top" ? (
+        <div className={`navBarWrapper ${theme}NavBar`}>
+          <img
+            src={smallLogo}
+            alt="Small DMarketing logo of an orange target and the name on the right side"
+          />
+          <Menu theme={theme}></Menu>
+        </div>
+      ) : (
+        <div className={`navBarWrapper ${theme}NavBar`}>
+          <img
+            src={mediumLogo}
+            alt="Medium DMarketing logo of an orange target and the name on the right side"
+          />
+          <Menu theme={theme}></Menu>
+        </div>
+      )}
+    </>
   );
 }

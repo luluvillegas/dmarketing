@@ -5,16 +5,21 @@
 }
 
 .top {
-  max-width: 50%;
   align-items: center;
   gap: 4rem;
 }
 
 .bottom {
+  flex-direction: column;
+  align-items: end;
 }
 
 .listItem {
   font-size: var(--fontSize-s);
+}
+
+.copyright {
+  color: var(--color-blue-light4);
 }
 
 a {

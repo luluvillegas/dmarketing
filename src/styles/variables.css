@@ -23,6 +23,8 @@
   --fontSize-s: 1rem; /*16px*/
 
   --padding-horizontal-xl: 300px;
+  --padding-horizontal-m: 100px;
   --padding-horizontal-s: 70px;
+  --padding-horizontal-xs: 40px;
   --padding-vertical-s: 15px;
 }

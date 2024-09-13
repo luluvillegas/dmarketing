@@ -10,10 +10,9 @@ export default function Hero() {
             <span className="titleHiglight"> DMarketing Point </span>la
             estategia para tu proyecto
           </h1>
-          <Button href="" theme="primary">
+          <Button href="#contacto" theme="primary">
             Contactanos
           </Button>
-          {/* TODO:add href to button */}
         </div>
       </div>
     </section>
