@@ -24,7 +24,7 @@ export default function Menu({ theme }) {
       ) : (
         <>
           <li className="listItem">
-            <a href="contacto">Contacto</a>
+            <a href="#contacto">Contacto</a>
           </li>
           <li className="listItem copyright">©2021 | DMarketing Point</li>
         </>

@@ -1,4 +1,4 @@
-import "./Card.css";
+import "./SmallCard.css";
 
 const cardThemes = {
   blue: "blue",

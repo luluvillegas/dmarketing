@@ -30,5 +30,6 @@
   --padding-vertical-s: 15px;
   --padding-vertical-m: 30px;
   --padding-vertical-l: 100px;
-  --padding-card: 38px;
+  --padding-smallCard: 38px;
+  --padding-bigCard: 80px;
 }
