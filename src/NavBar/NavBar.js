@@ -1,7 +1,5 @@
 import "./NavBar.css";
 import Menu from "../Menu/Menu";
-import smallLogo from "../assets/logos/logo-s.png";
-import mediumLogo from "../assets/logos/logo-m.png";
 
 export default function NavBar({ theme }) {
   return (
@@ -9,7 +7,7 @@ export default function NavBar({ theme }) {
       {theme === "top" ? (
         <div className={`navBarWrapper ${theme}NavBar`}>
           <img
-            src={smallLogo}
+            src="./assets/logos/logo-s.png"
             alt="Small DMarketing logo of an orange target and the name on the right side"
           />
           <Menu theme={theme}></Menu>
@@ -17,7 +15,7 @@ export default function NavBar({ theme }) {
       ) : (
         <div className={`navBarWrapper ${theme}NavBar`}>
           <img
-            src={mediumLogo}
+            src="./assets/logos/logo-m.png"
             alt="Medium DMarketing logo of an orange target and the name on the right side"
           />
           <Menu theme={theme}></Menu>

@@ -13,5 +13,5 @@
 
 .bottomNavBar {
   background-color: var(--color-blue-main);
-  padding: var(--padding-horizontal-xs) var(--padding-horizontal-s);
+  padding: var(--padding-vertical-m) var(--padding-horizontal-s);
 }

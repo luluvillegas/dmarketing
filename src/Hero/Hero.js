@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="background">
       <div className="blur">
         <div className="heroContentWrapper">
-          <h1 className="title">
+          <h1 className="heroTitle">
             <span className="titleHiglight"> DMarketing Point </span>la
             estategia para tu proyecto
           </h1>

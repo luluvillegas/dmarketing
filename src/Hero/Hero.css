@@ -1,5 +1,5 @@
 .background {
-  background: url(../assets/images/hero.png) no-repeat center;
+  background: url(../../public/assets/images/hero.png) no-repeat center;
   background-size: cover;
   height: 100vh;
   margin-top: -80px; /*height of the navBar*/
@@ -18,13 +18,13 @@
 .heroContentWrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 60px;
   padding: 0 var(--padding-horizontal-xl);
+  margin-top: -80px; /*height of the nav taken to center in screen*/
 }
 
-.title {
+.heroTitle {
   color: var(--color-orange-light4);
   font-size: var(--fontSize-xxl);
   text-align: center;
